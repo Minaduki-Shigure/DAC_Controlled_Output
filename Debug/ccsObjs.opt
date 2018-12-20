@@ -1,0 +1,1 @@
+"./main.obj" "./CTS/CTS_HAL.obj" "./CTS/CTS_Layer.obj" "./CTS/structure.obj" "./F5xx_F6xx_Core_Lib/HAL_FLASH.obj" "./F5xx_F6xx_Core_Lib/HAL_PMAP.obj" "./F5xx_F6xx_Core_Lib/HAL_PMM.obj" "./F5xx_F6xx_Core_Lib/HAL_TLV.obj" "./F5xx_F6xx_Core_Lib/HAL_UCS.obj" "../lnk_msp430f6638.cmd" -llibmath.a -llibc.a 
