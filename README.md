@@ -8,6 +8,6 @@ The output voltage is based on the following formula.
 
 > Vout = Vref * (DAC12_1DAT / 0xFFF)  
 
-The reference voltage is set as <unknown> and can be modified.  
+The reference voltage is set as __(unknown)__ and can be modified.  
 The output voltage is controlled by the TouchPad buttons on the device.  
 The output voltage of each TouchPad button can be modified in the file according to the formula of `Vout` above.
