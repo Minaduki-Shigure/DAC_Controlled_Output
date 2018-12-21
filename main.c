@@ -31,10 +31,10 @@ int DAC_Init(void)
 
     //P5DIR=BIT6;
     //P4DIR=BIT4;
-    P5OUT&=~BIT7;
-    P5SEL|=BIT7;
-    P5DIR|=BIT7;
-    //输出针脚应该对应的是???
+    //P5OUT&=~BIT7;
+    P7SEL|=BIT7;
+    P7DIR|=BIT7;
+    //输出针脚应该对应的是P7.7
 
     return 0;
 }
